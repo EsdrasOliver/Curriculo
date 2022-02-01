@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+:root {
+    /* cores */
+    --cor1: #BAFAEC;
+    --cor2: #53E0C2;
+    --cor3: #40AD96;
+    --cor4: #41615A;
+
+    /* fontes */
+    --font1: 'Rubik', sans-serif;
+    --font2: Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor1);
+    font-family: var(--font2);
+    font-size: 14px;
+}
+
+.curriculum {
+    background-color: var(--cor4);
+    margin: 10px auto;
+    max-width: 700px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.281);
+    border-radius: 5px;
+    color: white;
+}
+
+.container-principal {
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+.foto-perfil {
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.foto-perfil img {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+}
+
+.cabecalho {
+    border-bottom: 2px solid var(--cor1);
+    line-height: 2em;
+}
+
+.titulo-principal {
+    font-size: 1.7em;
+    font-family: var(--font1);
+    text-shadow: 1px 1px 1px var(--cor2);
+}
+
+.titulo-secundario {
+    font-size: 1.5em;
+    font-family: var(--font1);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-shadow: 1px 1px 1px var(--cor2);
+}
+
+.container {
+    margin-bottom: 10px;
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.links {
+    display: flex;
+    align-content: space-between;
+    gap: 10px;
+}
+
+.links:hover, .links a:hover {
+    color: var(--cor2);
+}
+
+.links a {
+    color: white;
+    justify-content: center;
+}
+
+.links i {
+    display: flex;
+    align-items: center;
+}
+
+.contatos {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.conteudo {
+    text-align: justify;
+    line-height: 1.5em;
+    margin-top: 10px;
+}
+
+.conteudo p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projetos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.projeto {
+    background-color: var(--cor3);
+    width: 120px;
+    height: 90px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px var(--cor1);
+
+    text-align: center;
+}
+
+.rodape {
+    margin-top: 60px;
+    background-color: var(--cor4);
+    padding: 10px;
+}
+
+.rodape p {
+    text-align: center;
+    color: white;
+}
