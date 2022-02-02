@@ -86,20 +86,16 @@ body {
     display: flex;
     align-content: space-between;
     gap: 10px;
+    align-items: center;
 }
 
-.links:hover, .links a:hover {
+.links a:hover {
     color: var(--cor2);
 }
 
 .links a {
     color: white;
     justify-content: center;
-}
-
-.links i {
-    display: flex;
-    align-items: center;
 }
 
 .contatos {
