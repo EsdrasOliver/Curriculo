@@ -23,6 +23,7 @@ body {
     background-color: var(--cor1);
     font-family: var(--font2);
     font-size: 14px;
+    height: 100%;
 }
 
 .curriculum {
@@ -32,6 +33,9 @@ body {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.281);
     border-radius: 5px;
     color: white;
+
+    min-height: 100%;
+    position: relative;
 }
 
 .container-principal {
@@ -137,7 +141,7 @@ body {
     background-color: var(--cor4);
     padding: 10px;
     bottom: 0;
-    position: fixed;
+    position: relative;
     width: 100%;
 }
 
