@@ -136,6 +136,9 @@ body {
     margin-top: 60px;
     background-color: var(--cor4);
     padding: 10px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 
 .rodape p {
